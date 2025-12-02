@@ -155,59 +155,80 @@
                     </ul>
                 </div>
 
-                <div class="content-panel" id="outputs">
-                    <h3>Outputs</h3>
-                    <div class="output-tabs">
-                        <div class="output-tab-item active" data-tab="photoshop-works">1 : PHOTOSHOP WORKS</div>
-                        <div class="output-tab-item" data-tab="illustrator-works">2 : ILLUSTRATOR WORKS</div>
+               <div class="content-panel" id="outputs">
+    <h3>Outputs</h3>
+
+    <!-- Top Category Tabs -->
+    <div class="output-tabs">
+        <div class="output-tab-item active" data-tab="photoshop-works">1 : PHOTOSHOP WORKS</div>
+        <div class="output-tab-item" data-tab="illustrator-works">2 : ILLUSTRATOR WORKS</div>
+    </div>
+
+    <div class="output-panels">
+        <!-- Photoshop Works -->
+        <div class="output-panel active" id="photoshop-works">
+            <!-- Sub-tabs -->
+            <div class="output-sub-tabs">
+                <div class="output-sub-tab-item active" data-tab="retouch">Retouch</div>
+                <div class="output-sub-tab-item" data-tab="gradient">Gradient</div>
+                <div class="output-sub-tab-item" data-tab="posters">Posters</div>
+            </div>
+
+            <!-- Sub-panels -->
+            <div class="output-sub-panels">
+                <div class="output-sub-panel active" id="retouch">
+                    <div class="gallery">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Jewel Highlight copy.jpg" alt="Jewel Highlight">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Jewellery MASK copy.jpg" alt="Jewel 2">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Trick1 copy.jpg" alt="Face retouch 1">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/trick3 copy.jpg" alt="Face retouch 2">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Trick4 copy.jpg" alt="Face retouch 3">
                     </div>
+                </div>
 
-                    <div class="output-panels">
-                        <!-- Photoshop Works -->
-                        <div class="output-panel active" id="photoshop-works">
-                            <h4>PHOTOSHOP WORKS</h4>
+                <div class="output-sub-panel" id="gradient">
+                    <div class="gallery">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Gradient works/1 copy.jpg" alt="Gradient1">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Gradient works/2 copy.jpg" alt="Gradient2">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Gradient works/3 copy.jpg" alt="Gradient3">
+                    </div>
+                </div>
 
-                            <!-- Retouch -->
-                            <div class="gallery">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Jewel Highlight copy.jpg" alt="Jewel Highlight">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Jewellery MASK copy.jpg" alt="Jewel 2">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Trick1 copy.jpg" alt="Face retouch 1">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/trick3 copy.jpg" alt="Face retouch 2">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Trick4 copy.jpg" alt="Face retouch 3">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Shirt color change-1 copy.jpg" alt="Shirtclr 1">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Retouch/Shirt colour.jpg" alt="shirtclr 2">
-                            </div>
-
-                            <!-- Gradient -->
-                            <div class="gallery">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Gradient works/1 copy.jpg" alt="Gradient1">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Gradient works/2 copy.jpg" alt="Gradient2">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Gradient works/3 copy.jpg" alt="Gradient3">
-                            </div>
-
-                            <!-- Posters -->
-                            <div class="gallery">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/coffee shop.jpg" alt="coffeeshop">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/Practice-POSTER copy.jpg" alt="porshe1">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/POrshe 2.png" alt="porshe2">
-                                <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/Mockup copy.jpg" alt="cupMockup">
-                            </div>
-                        </div>
-
-                        <!-- Illustrator Works -->
-                        <div class="output-panel" id="illustrator-works">
-                            <h4>ILLUSTRATOR WORKS</h4>
-                            <div class="gallery">
-                                <img src="OUTPUT/ILLUSTRATOR WORKS/Vector1/vector1.jpg" alt="Vector1">
-                                <img src="OUTPUT/ILLUSTRATOR WORKS/Vector2/vector2.jpg" alt="Vector2">
-                                <!-- Add remaining Illustrator images -->
-                            </div>
-                        </div>
+                <div class="output-sub-panel" id="posters">
+                    <div class="gallery">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/coffee shop.jpg" alt="coffeeshop">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/Practice-POSTER copy.jpg" alt="porshe1">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/POrshe 2.png" alt="porshe2">
+                        <img src="OUTPUT/PHOTOSHOP WORKS/Poster's/Mockup copy.jpg" alt="cupMockup">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Illustrator Works -->
+        <div class="output-panel" id="illustrator-works">
+            <div class="output-sub-tabs">
+                <div class="output-sub-tab-item active" data-tab="vector1">Vector1</div>
+                <div class="output-sub-tab-item" data-tab="vector2">Vector2</div>
+            </div>
+
+            <div class="output-sub-panels">
+                <div class="output-sub-panel active" id="vector1">
+                    <div class="gallery">
+                        <img src="OUTPUT/ILLUSTRATOR WORKS/Vector1/vector1.jpg" alt="Vector1">
+                    </div>
+                </div>
+
+                <div class="output-sub-panel" id="vector2">
+                    <div class="gallery">
+                        <img src="OUTPUT/ILLUSTRATOR WORKS/Vector2/vector2.jpg" alt="Vector2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </section>
 
     <!-- About Section -->
     <section class="about" id="about">
@@ -328,3 +349,4 @@ THANK YOU!</p>
     <script src="templatemo-electric-scripts.js"></script>
 </body>
 </html>
+
